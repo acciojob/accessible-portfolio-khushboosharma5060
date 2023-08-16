@@ -8,18 +8,32 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	  <heading>
-    <h1>Accessible Portfolio</h1>
-  <nav>
-    <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Services</li>
-   </ul>
-  </nav>
-</heading>
-  <img src="./imges/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.webp" style="height:200px; width:300px" alt="" srcset="">
-    <script type="text/javascript" src="./script.js">
+	     <header role="heading">
+        <h1>My Accessible Portfolio</h1>
+    </header>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section role="img">
+            <img src="portfolio-image.jpg" alt="Portfolio Image">
+        </section>
+        <section>
+            <p>This is a brief description of my portfolio.</p>
+        </section>
+        <section role="list">
+            <ul>
+                <li role="listitem">Project 1: Web Accessibility</li>
+                <li role="listitem">Project 2: Responsive Design</li>
+                <li role="listitem">Project 3: User Experience</li>
+            </ul>
+        </section>
+    </main>avascript" src="./script.js">
 </script>
 
 </body>
